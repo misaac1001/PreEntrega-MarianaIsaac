@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+/* General */
+body {   
+  background-image: url(img/fondoPantalla.jpg);
+  text-align: center;
+  font-family: 'Sofia', cursive;
+  font-size: 15px;
+  color: white;
+}
+
+.navbar-text button {
+    border: none;
+  }
+  
+  
+  /* logo */
+  i{
+    font-size: 35px;
+    
+  }
+  /* FOOTER */
+
+footer .icons a{
+    color: white;
+    margin: 15px;
+    padding: 5px;
+}
+footer .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  footer .logo{
+      display: flex;
+      flex-direction: column;
+
+  }
+  
+}
+
+footer .logo .icons{
+  margin: 10px;
+
+}
+
+footer .FondoCopy {
+  color: white;
+}
