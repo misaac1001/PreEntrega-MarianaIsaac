@@ -7,7 +7,7 @@
 }
 /* General */
 body {   
-  background-image: url(img/fondoPantalla.jpg);
+  background-image: url(../img/fondoPantalla.jpg);
   text-align: center;
   font-family: 'Sofia', cursive;
   font-size: 15px;
