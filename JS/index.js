@@ -18,7 +18,7 @@ function buscarProducto(id) {
 }
 
 function comprar() {
-    let codigoID = parseInt(prompt("Seleccione su prenda mediante codigo ID que aparece en la tabla"));
+    let codigoID = parseInt(prompt("Seleccione su producto mediante codigo ID que aparece en la tabla"));
     if ((codigoID < 1) || (codigoID > 8) || isNaN(codigoID)) {
         alert("⛔️ Error en el código ingresado.");
         return comprar()
